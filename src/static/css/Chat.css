@@ -1,0 +1,88 @@
+.chat {
+  display: grid;
+  grid-template-areas: 'a d'
+    'b b'
+    'c c';
+    grid-template-rows: 10% auto 6%;
+    grid-template-columns: 85% 15%;
+    padding-bottom: 1px;
+}
+
+.chat_info {
+  grid-area: a;
+  border-bottom: 1px solid grey;
+}
+
+.chat_info_name {
+  margin: 7px 0 0 10px;
+  font-size: 1.2em;
+}
+
+.chat_info_time {
+  margin: 7px 0 0 10px;
+  color: grey;
+}
+
+.chat_controls {
+  margin-top: 10px;
+  display: flex;
+  grid-area: d;
+  border-bottom: 1px solid grey;
+}
+
+.chat_controls_call {
+  background: url(../images/call.jpg) 45% 45% no-repeat;
+}
+
+.chat_controls_search {
+  background: url(../images/search.svg) 45% 45% no-repeat;
+}
+
+.chat_controls_more {
+  background: url(../images/more.svg) 45% 45% no-repeat;
+}
+
+.chat_messages {
+  grid-area: b;
+  background: url(../images/chat-bg.jpg);
+}
+
+.chat_controls_msg {
+  grid-area: c;
+  display: flex;
+}
+
+.chat_controls_more,
+.chat_controls_search,
+.chat_controls_call,
+.chat_controls_msg_file,
+.chat_controls_msg_smile,
+.chat_controls_msg_audio,
+.chat_controls_msg_send {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.chat_controls_msg_file {
+  background: url(../images/file.svg) 45% 45% no-repeat;
+}
+
+.chat_controls_msg_input {
+  width: 100%;
+  border: 0px;
+}
+
+.chat_controls_msg_smile {
+  background: url(../images/smile.svg) 45% 45% no-repeat;
+}
+
+.chat_controls_msg_audio {
+  background: url(../images/audio.svg) 45% 45% no-repeat;
+}
+
+.chat_controls_msg_send {
+  display: none;
+  background: url(../images/send.svg) 45% 45% no-repeat;
+}
+

@@ -1,0 +1,64 @@
+.login {
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    height: 30%;
+    width: 40%;
+}
+
+.main_login {
+    width: 50%;
+    height: 70px;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 7%;
+    width: 100%;
+}
+
+.footer_copyright {
+    font-size: 1.5em;
+    display: inline;
+}
+.footer_github_link {
+    font-size: 1.5em;
+    float: right;
+}
+
+.footer_github_link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 979px)
+{
+    .login_page {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .login_page {
+        width: 90%;
+    }
+
+    .main_login {
+        height: 25%;
+    }
+
+    .footer_copyright {
+        font-size: 1.2em;
+    }
+
+    .footer_github_link {
+        font-size: 1.2em;
+    }
+}

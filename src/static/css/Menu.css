@@ -1,0 +1,36 @@
+.menu {
+    height: 600px;
+    width: 300px;
+    border: 1px solid grey;
+}
+
+.menu_profile {
+    background-color: aqua;
+    height: 150px;
+}
+
+.menu_profile_avatar {
+    cursor: pointer;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+span,
+.menu_profile > * {
+    margin-left: 20px;
+}
+
+img {
+    cursor: pointer;
+    display: inline;
+}
+
+span {
+    display: block;
+    margin-top: 17px;
+}
+
+.menu_footer {
+    margin-top: 100px;
+}
