@@ -1,17 +1,14 @@
 import React from 'react';
-import Chat from '../components/Chat.js';
-import Contacts from '../components/Contact.js';
-import '../static/css/App.css';
+import Chat from '../components/chat.js';
+import Contacts from '../components/contact.js';
+import Controls from '../components/controls.js'
+import '../static/css/app.css';
 
 class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <div className="controls">
-                    <div className="controls_menu">
-                    </div>
-                    <input className="controls_search" />
-                </div>
+                <Controls />
                 <Contacts />
                 <Chat />
             </div>

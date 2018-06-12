@@ -1,5 +1,6 @@
 import React from 'react';
-import '../static/css/Contact.css';
+import '../static/css/contact.css';
+import contactsApi from '../api/contacts';
 
 class Contacts extends React.Component {
     render() {

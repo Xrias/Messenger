@@ -1,5 +1,5 @@
 import React from 'react';
-import '../static/css/Login.css';
+import '../static/css/login.css';
 
 class Login extends React.Component {
     render() {
@@ -7,8 +7,16 @@ class Login extends React.Component {
             <div className="login">
                 <main className="main">
                     <h1 className="main_hello">Hello!</h1>
+                    <div className = "main_login">
+                        <span className="main_login_span">Логин</span>
+                        <input className="main_login_input" />
+                    </div>
+                    <div className = "main_password">
+                        <span className="main_password_span">Пароль</span>
+                        <input className="main_password_input" />
+                    </div>
                     <a>
-                        <button className="main_login">Войти</button>
+                        <button className="main_enter">Войти</button>
                     </a>
                 </main>
                 <footer className="footer">

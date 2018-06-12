@@ -8,6 +8,30 @@
 }
 
 .main_login {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.main_login_span,
+.main_password_span {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.main_login_span {
+    margin-right: 18px;
+}
+
+.main_password {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    display: block;
+}
+
+.main_enter {
+    margin-top: 15px;
     width: 50%;
     height: 70px;
     font-size: 2em;
