@@ -18,10 +18,13 @@ class Login extends React.Component {
                     <a>
                         <button className="main_enter">Войти</button>
                     </a>
+                    <a>
+                        <button className="main_createUser">Регистрация</button>
+                    </a>
                 </main>
                 <footer className="footer">
                     <p className="footer_copyright">&copy;A.R.</p>
-                    <a className="footer_github_link" href="https://github.com/">Link to GitHub</a>
+                    <a className="footer_github_link" href="https://github.com/Xrias">Link to GitHub</a>
                 </footer>
             </div>
         );

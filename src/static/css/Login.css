@@ -30,9 +30,10 @@
     display: block;
 }
 
-.main_enter {
+.main_enter,
+.main_createUser {
     margin-top: 15px;
-    width: 50%;
+    width: 60%;
     height: 70px;
     font-size: 2em;
     text-decoration: none;
