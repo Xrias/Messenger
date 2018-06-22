@@ -7,8 +7,8 @@ class Chat extends React.Component {
             <div className="chat">
                 <div className="chat_info">
                     <div className="chat_info_avatar" />
-                    <div className="chat_info_name">Михаил Левшин</div>
-                    <div className="chat_info_time">заходил(а) 1 час назад</div>
+                    <div className="chat_info_name">{this.props.name}</div>
+                    <div className="chat_info_time">{this.props.timeOfLastVisit}</div>
                 </div>
                 <div className="chat_controls">
                     <span className="chat_controls_call" />

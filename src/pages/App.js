@@ -10,7 +10,7 @@ class App extends React.Component {
             <div className="app">
                 <Controls />
                 <Contacts />
-                <Chat />
+                <Chat name="Миша Левшин" timeOfLastVisit="Был в сети час назад"/>
             </div>
         );
     }

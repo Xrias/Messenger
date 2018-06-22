@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import '../static/css/login.css';
 
 class Login extends React.Component {
@@ -16,10 +17,10 @@ class Login extends React.Component {
                         <input className="main_password_input" />
                     </div>
                     <a>
-                        <button className="main_enter">Войти</button>
+                        <button className="main_enter"><Link to='/app'>Войти</Link></button>
                     </a>
                     <a>
-                        <button className="main_createUser">Регистрация</button>
+                        <button className="main_createUser"><Link to='/register'>Регистрация</Link></button>
                     </a>
                 </main>
                 <footer className="footer">
