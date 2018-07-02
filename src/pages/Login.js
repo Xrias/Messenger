@@ -16,12 +16,8 @@ class Login extends React.Component {
                         <span className="main_password_span">Пароль</span>
                         <input className="main_password_input" />
                     </div>
-                    <a>
-                        <button className="main_enter"><Link to='/app'>Войти</Link></button>
-                    </a>
-                    <a>
-                        <button className="main_createUser"><Link to='/register'>Регистрация</Link></button>
-                    </a>
+                    <Link to='/app'><button className="main_enter">Войти</button></Link>
+                    <Link to='/register'><button className="main_createUser">Регистрация</button></Link>
                 </main>
                 <footer className="footer">
                     <p className="footer_copyright">&copy;A.R.</p>

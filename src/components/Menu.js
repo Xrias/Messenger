@@ -1,5 +1,5 @@
 import React from 'react';
-import '../static/css/menu';
+import '../static/css/menu.css';
 
 class Menu extends React.Component {
     render() {
@@ -16,27 +16,27 @@ class Menu extends React.Component {
                     <span className="menu_profile_favorites" />
                 </div>
                 <div className="menu_group">
-                    <img />
+                    <img alt=""/>
                     <span >Создать группу</span>
                 </div>
                 <div className="menu_channel">
-                    <img />
+                    <img alt=""/>
                     <span >Создать канал</span>
                 </div>
                 <div className="menu_contacts">
-                    <img />
+                    <img alt=""/>
                     <span >Контакты</span>
                 </div>
                 <div className="menu_calls">
-                    <img />
+                    <img alt=""/>
                     <span >Звонки</span>
                 </div>
                 <div className="menu_properties">
-                    <img />
+                    <img alt=""/>
                     <span >Настройки</span>
                 </div>
                 <div className="menu_nightTheme">
-                    <img />
+                    <img alt=""/>
                     <span>Ночная тема</span>
                 </div>
                 <div className="menu_footer">

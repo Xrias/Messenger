@@ -1,6 +1,9 @@
 .menu {
-    height: 600px;
-    width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 53px;
+    height: 599px;
+    width: 267px;
     border: 1px solid grey;
 }
 
@@ -16,7 +19,7 @@
     height: 50px;
 }
 
-span,
+.menu span,
 .menu_profile > * {
     margin-left: 20px;
 }
@@ -26,11 +29,15 @@ img {
     display: inline;
 }
 
-span {
+.menu span {
     display: block;
     margin-top: 17px;
 }
 
 .menu_footer {
     margin-top: 100px;
+}
+
+.menu > div {
+    cursor: pointer;
 }
