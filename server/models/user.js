@@ -18,7 +18,7 @@ class User {
         return store;
     }
 
-    findUserByLoginAndPassword() {
+    getUserByLoginAndPassword() {
         store.forEach(user => {
             if (user.login === login && user.password === password) {
                 return user;

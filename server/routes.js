@@ -6,7 +6,8 @@ const UserController = require('./controllers/user');
 const AuthorizationController = require('./controllers/authorization');
 
 module.exports = app => {
-    app.post('/', UserController.addUser)
+    app.post('/register', UserController.addUser)
+    app.post('/users', UserController.getUserByLoginAndPassword)
 
     app.all('*', error404);
 };

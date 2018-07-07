@@ -1,6 +1,6 @@
 'use strict';
 
-let store = [];
+let store = [{id: 1, name: 'Артем', surname: 'Решетников'}];
 
 const User = require('../models/user');
 
@@ -13,5 +13,9 @@ module.exports = class UserController {
 
     static getUsers(req, res) {
         res.json(User.getUsers());
+    }
+
+    static getUserByLoginAndPassword(req, res){
+        res.json(User.getUserByLoginAndPassword());
     }
 };
